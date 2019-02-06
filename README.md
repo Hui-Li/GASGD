@@ -38,7 +38,7 @@ Our implementation uses [CSR](https://en.wikipedia.org/wiki/Sparse_matrix#Compre
 ```
 where 69878 is the number of users, 10677 is the number of items, 7972661 is the number of training ratings, train.dat is the path to training file (in CSR format), 2027393 is the number of testing ratings and test.dat is the path to testing file (in CSR format).
 
-You can use our tool [MFDataTransform](https://github.com/Hui-Li/MFDataTransform) to transform public datasets to CSR format.
+You can use our tool [MFDataPreparation](https://github.com/Hui-Li/MFDataPreparation) to transform public datasets to CSR format.
 
 ### Example
 `runGASGD.sh` provides an example for running the algorithm.
